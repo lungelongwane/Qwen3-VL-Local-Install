@@ -35,6 +35,7 @@ Then open http://localhost:3000, create the local admin account, and pick the mo
 - [Setup](docs/setup.md): install, compose file, connecting Open WebUI to Ollama
 - [Migrate existing containers](docs/migrate-existing-containers.md): move `docker run` containers to compose without losing data
 - [Models](docs/models.md): picking a model for your RAM
+- [Qwen3-VL](docs/qwen3-vl.md): vision-language model setup, images in Open WebUI, CPU tips
 - [Maintenance](docs/maintenance.md): updates, backup, restore, freeing disk space
 - [Security](docs/security.md): sign-ups, loopback binding, firewall
 - [Commands](docs/commands.md): everyday Docker and Ollama commands
