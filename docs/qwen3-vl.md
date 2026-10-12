@@ -41,14 +41,6 @@ curl http://localhost:11434/api/chat -d '{
 }'
 ```
 
-## Performance tips (CPU only, e.g. i5-6500 with 24 GB)
-
-- Expect roughly 3–4 tokens/s for the text output, and a noticeable delay (often tens of seconds) before the first token while the image is processed.
-- Use **smaller images**. Resize large photos to about 1024 px on the long edge before uploading.
-- One image per question is much faster than several.
-- Keep the context window modest. Longer contexts use more RAM and slow things down.
-- If it feels too slow, switch to `qwen3-vl:4b`.
-
 ## Troubleshooting
 
 | Problem | Fix |
